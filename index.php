@@ -8,7 +8,7 @@ $html = file_get_contents('/var/www/html/pdfProject/index.html');
 
 $pdf->AddPage();
   
-$pdf->SetFont('amirii',  16);
+$pdf->SetFont('beinnormal',  18);
 
 $pdf->WriteHTML($html, true, false, true, false, '');
 
